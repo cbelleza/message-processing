@@ -18,7 +18,7 @@ The default log level is "info", case needed it can be changed by the property
 ```
 ## Start example
 ```
-java -jar target/message-processing.jar
+java -jar target/message-processing-1.0.0.jar
       --spring.rabbitmq.host=localhost
       --spring.rabbitmq.port=5672
       --spring.rabbitmq.username=guest
