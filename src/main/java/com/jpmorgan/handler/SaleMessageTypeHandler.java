@@ -12,10 +12,10 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jpmorgan.support.vo.MessageType1;
-import com.jpmorgan.support.vo.MessageType2;
-import com.jpmorgan.support.vo.MessageType3;
-import com.jpmorgan.support.vo.ProductType;
+import com.jpmorgan.model.MessageType1;
+import com.jpmorgan.model.MessageType2;
+import com.jpmorgan.model.MessageType3;
+import com.jpmorgan.model.ProductType;
 
 /**
  * Handler to process messages sent to Rabbit queue (sale) and report status of

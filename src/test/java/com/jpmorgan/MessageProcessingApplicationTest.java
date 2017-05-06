@@ -10,12 +10,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.jpmorgan.model.AdjustmentOperationValue;
+import com.jpmorgan.model.MessageType1;
+import com.jpmorgan.model.MessageType2;
+import com.jpmorgan.model.MessageType3;
+import com.jpmorgan.model.ProductType;
 import com.jpmorgan.support.AdjustmentOperation;
-import com.jpmorgan.support.vo.AdjustmentOperationValue;
-import com.jpmorgan.support.vo.MessageType1;
-import com.jpmorgan.support.vo.MessageType2;
-import com.jpmorgan.support.vo.MessageType3;
-import com.jpmorgan.support.vo.ProductType;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.jpmorgan.support.vo;
+package com.jpmorgan.model;
 
 public class MessageType1 {
 
